@@ -1,5 +1,5 @@
-<%@ page language="java" contentType="text/html; charset=GBK"
-    pageEncoding="GBK"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <%
     String path = request.getContextPath();
     String basePath = request.getScheme() + "://" + request.getServerName() + ":" + request.getServerPort()
@@ -8,8 +8,8 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=GBK">
-<meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- 移动设备优先 -->
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- 绉诲姩璁惧浼樺厛 -->
 <title>Template</title>
 <link rel="stylesheet" href="css/bootstrap.min.css">
 <link rel="stylesheet" href="css/font-awesome.min.css">
@@ -20,17 +20,17 @@
 <div class="row">
   <div class="col-xs-6 col-md-3">
     <a href="#" class="thumbnail" data-toggle="modal" data-target="#myModal" onclick="javascript:$('#image').attr('src','<%=request.getContextPath()%>/image/test1.jpg');">
-      <img src="<%=request.getContextPath()%>/image/test1.jpg" alt="<%=request.getContextPath()%>/image/no-image.gif" title="哈哈哈">
+      <img src="<%=request.getContextPath()%>/image/test1.jpg" alt="<%=request.getContextPath()%>/image/no-image.gif" title="鍝堝搱鍝�">
     </a>
   </div>
   <div class="col-xs-6 col-md-3">
     <a href="#" class="thumbnail" data-toggle="modal" data-target="#myModal" onclick="javascript:$('#image').attr('src','<%=request.getContextPath()%>/image/color.jpg');">
-      <img src="<%=request.getContextPath()%>/image/color.jpg" alt="哈哈哈哈">
+      <img src="<%=request.getContextPath()%>/image/color.jpg" alt="鍝堝搱鍝堝搱">
     </a>
   </div>
   <div class="col-xs-6 col-md-3">
     <a href="#" class="thumbnail" data-toggle="modal" data-target="#myModal" onclick="javascript:$('#image').attr('src',$('#image3').attr('src'));">
-      <img id="image3" src="<%=request.getContextPath()%>/image/test2.jpg" onerror="this.src='<%=request.getContextPath()%>/image/no-image.gif'" title="哈哈哈">
+      <img id="image3" src="<%=request.getContextPath()%>/image/test2.jpg" onerror="this.src='<%=request.getContextPath()%>/image/no-image.gif'" title="鍝堝搱鍝�">
     </a>
   </div>
   <div class="row">

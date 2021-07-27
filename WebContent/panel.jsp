@@ -1,20 +1,20 @@
-<%@ page language="java" contentType="text/html; charset=GBK"
-    pageEncoding="GBK"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=GBK">
-<meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- 移动设备优先 -->
-<title>面板</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- 绉诲姩璁惧浼樺厛 -->
+<title>闈㈡澘</title>
 <link rel="stylesheet" href="css/bootstrap.min.css">
 <script type="text/javascript" src="js/jquery.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
 </head>
 <body>
-<!-- 带内容的面板 -->
+<!-- 甯﹀唴瀹圭殑闈㈡澘 -->
 <div class="panel panel-default">
   <div class="panel-heading">
-    <h3 class="panel-title">图片</h3>
+    <h3 class="panel-title">鍥剧墖</h3>
   </div>
   <div class="panel-body">
    <div class="row">
@@ -23,7 +23,7 @@
          <img src="<%=request.getContextPath()%>/image/test2.jpg" alt="..." 
                             onerror="this.src='<%=request.getContextPath()%>/image/no-image.gif'">
          <div class="caption">
-           <h3>防疫物资</h3>
+           <h3>闃茬柅鐗╄祫</h3>
            <p><a href="#" class="btn btn-default" role="button">Button</a></p>
          </div>
        </div>
@@ -33,7 +33,7 @@
          <img src="<%=request.getContextPath()%>/image/test2.jpg" alt="..." 
                             onerror="this.src='<%=request.getContextPath()%>/image/no-image.gif'">
          <div class="caption">
-           <h3>防疫物资</h3>
+           <h3>闃茬柅鐗╄祫</h3>
            <p><a href="#" class="btn btn-primary" role="button">Button</a></p>
          </div>
        </div>
@@ -43,11 +43,11 @@
 </div>
 <div class="panel panel-default">
   <div class="panel-heading">
-    <h3 class="panel-title">特殊情况说明</h3>
+    <h3 class="panel-title">鐗规畩鎯呭喌璇存槑</h3>
   </div>
   <div class="panel-body">
     <textarea class="form-control" rows="10"></textarea>
-    <p class="text-right" style="margin-top:10px;"><a href="#" class="btn btn-primary" role="button">提交</a></p>
+    <p class="text-right" style="margin-top:10px;"><a href="#" class="btn btn-primary" role="button">鎻愪氦</a></p>
   </div>
 </div>
 </body>

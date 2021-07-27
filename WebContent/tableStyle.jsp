@@ -1,10 +1,10 @@
-<%@ page language="java" contentType="text/html; charset=GBK"
-    pageEncoding="GBK"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=GBK">
-<meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- ÒÆ¶¯Éè±¸ÓÅÏÈ -->
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- ç§»åŠ¨è®¾å¤‡ä¼˜å…ˆ -->
 <title>Template</title>
 <link rel="stylesheet" href="css/bootstrap.min.css">
 <script type="text/javascript" src="js/jquery.min.js"></script>
@@ -12,44 +12,44 @@
 </head>
 <body>
 <!-- <table class="table">
-   <caption>ÉÏÏÂÎÄ±í¸ñ²¼¾Ö</caption>
+   <caption>ä¸Šä¸‹æ–‡è¡¨æ ¼å¸ƒå±€</caption>
    <thead>
       <tr>
-         <th>²úÆ·</th>
-         <th>¸¶¿îÈÕÆÚ</th>
-         <th>×´Ì¬</th>
+         <th>äº§å“</th>
+         <th>ä»˜æ¬¾æ—¥æœŸ</th>
+         <th>çŠ¶æ€</th>
       </tr>
    </thead>
    <tbody>
       <tr>
-         <td><button type="button" class="btn btn-success">³É¹¦°´Å¥</button></td>
+         <td><button type="button" class="btn btn-success">æˆåŠŸæŒ‰é’®</button></td>
          <td>23/11/2013</td>
-         <td>´ý·¢»õ</td>
+         <td>å¾…å‘è´§</td>
       </tr>
       <tr>
-         <td class="success">²úÆ·2</td>
+         <td class="success">äº§å“2</td>
          <td class="active">10/11/2013</td>
-         <td>·¢»õÖÐ</td>
+         <td>å‘è´§ä¸­</td>
       </tr>
       <tr  class="warning">
-         <td>²úÆ·3</td>
+         <td>äº§å“3</td>
          <td>20/10/2013</td>
-         <td>´ýÈ·ÈÏ</td>
+         <td>å¾…ç¡®è®¤</td>
       </tr>
       <tr  class="danger">
-         <td>²úÆ·4</td>
+         <td>äº§å“4</td>
          <td>20/10/2013</td>
-         <td>ÒÑÍË»õ</td>
+         <td>å·²é€€è´§</td>
       </tr>
    </tbody>
 </table> -->
 <table class="table table-bordered" style="width: 40%;">
-   <caption>±ß¿ò±í¸ñ²¼¾Ö</caption>
+   <caption>è¾¹æ¡†è¡¨æ ¼å¸ƒå±€</caption>
    <thead>
       <tr>
-         <th>Ãû³Æ</th>
-         <th>³ÇÊÐ</th>
-         <th>ÃÜÂë</th>
+         <th>åç§°</th>
+         <th>åŸŽå¸‚</th>
+         <th>å¯†ç </th>
       </tr>
    </thead>
    <tbody>
@@ -71,12 +71,12 @@
    </tbody>
 </table>
 <table class="table table-bordered" style="width: 40%;">
-   <caption>±ß¿ò±í¸ñ²¼¾Ö</caption>
+   <caption>è¾¹æ¡†è¡¨æ ¼å¸ƒå±€</caption>
    <thead>
       <tr>
-         <th>Ãû³Æ</th>
-         <th>³ÇÊÐ</th>
-         <th>ÃÜÂë</th>
+         <th>åç§°</th>
+         <th>åŸŽå¸‚</th>
+         <th>å¯†ç </th>
       </tr>
    </thead>
    <tbody>
