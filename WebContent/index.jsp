@@ -9,12 +9,17 @@
 <link rel="stylesheet" href="css/bootstrap.min.css">
 <script type="text/javascript" src="js/jquery.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
+<style type="text/css">
+	.btn{
+		width: 50vw;margin: auto;
+	}
+</style>
 </head>
 <body>
 	<!-- <img src="image/test1.jpg" class="img-responsive" alt="响应式图像"> -->
-	<a href="grid_layout.jsp">网格系统实例：手机、平板电脑、台式电脑</a><br/>
-	<a href="response_grid_layout.jsp">响应式的列重置</a><br/>
-    <a href="thumbnail.jsp">图片查看</a><br/>
-    <a href="panel2.jsp">面板</a><br/>
+    <a href="grid_layout.jsp" class="btn btn-primary btn-lg btn-block" style="margin-top: 1vw;">网格系统实例：手机、平板电脑、台式电脑</a>
+	<a href="response_grid_layout.jsp" class="btn btn-primary btn-lg btn-block">响应式的列重置</a>
+	<a href="thumbnail.jsp" class="btn btn-primary btn-lg btn-block">图片查看</a>
+	<a href="panel2.jsp" class="btn btn-primary btn-lg btn-block">面板</a>
 </body>
 </html>
